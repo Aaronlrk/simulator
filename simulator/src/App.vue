@@ -1,6 +1,5 @@
 <template >
-  <div id="app" >
-    <img alt="Vue logo" src="./assets/logo.png">
+  <div id="app">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -16,8 +15,12 @@ export default {
 
 <style>
 #app {
-  width: 400px;
-  height: 844px;
+  position: absolute;
+  width: 473px;
+  height: 666px;
   border: solid;
+  top: 5%;
+  left: 30%;
+  border-radius: 15%;
 }
 </style>
